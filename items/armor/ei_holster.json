@@ -1,0 +1,47 @@
+[
+   {
+    "id" : "carry_holster",
+    "type" : "ARMOR",
+    "name" : "carry holster",
+    "description" : "A small, concealed leather strap worn on the hip for holding pistol sized guns. Prior to the Cataclysm, it would have been used to hide guns; not much point in that anymore. Activate to holster/draw a gun.",
+    "weight" : 150,
+    "volume" : 1,
+    "price" : 9000,
+    "material" : "leather",
+    "symbol" : "[",
+    "color" : "ltgray",
+    "covers" : ["LEG_EITHER"],
+    "coverage" : 3,
+    "encumbrance" : 3,
+    "material_thickness" : 1,
+    "use_action" : {
+      "type": "holster",
+      "max_volume": 2,
+      "skills": ["pistol", "smg", "shotgun"]
+    },
+    "flags" : ["WAIST"]
+  },
+  {
+    "id" : "holster",
+    "type" : "ARMOR",
+    "name" : "holster",
+    "description" : "A leather strap worn on the hip for holding pistol sized guns.  Activate to holster/draw a gun.",
+    "weight" : 220,
+    "volume" : 2,
+    "price" : 9000,
+    "material" : "leather",
+    "symbol" : "[",
+    "color" : "ltgray",
+    "covers" : ["LEG_EITHER"],
+    "coverage" : 5,
+    "encumbrance" : 5,
+    "material_thickness" : 1,
+    "use_action" : {
+      "type": "holster",
+	  "min_volume": 1,
+      "max_volume": 5,
+      "skills": ["pistol", "smg", "shotgun"]
+    },
+    "flags" : ["WAIST", "OVERSIZE"]
+  }
+]

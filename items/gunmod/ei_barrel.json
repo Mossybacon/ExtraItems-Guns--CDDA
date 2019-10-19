@@ -1,0 +1,38 @@
+[
+  {
+    "id": "m72_barrel_long",
+    "type": "GUNMOD",
+    "name": "Beretta 72 long barrel",
+    "description": "A longer (150mm/5.9 in.) barrel for the Beretta 72 pistol, designed for target shooting.",
+    "weight": 200,
+    "volume": 2,
+    "price": 20000,
+    "to_hit": 0,
+    "bashing": 3,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "b_m72barrel",
+    "mod_targets": [ "pistol" ],
+    "damage_modifier": 1,
+    "dispersion_modifier": -90,
+    "min_skills": [ [ "weapon", 4 ] ]
+  },
+  {
+    "id": "m72_barrel_short",
+    "type": "GUNMOD",
+    "name": "Beretta 72 short barrel",
+    "description": "A short (90mm/3.5 in.) barrel for the Beretta 72 pistol, designed for self defense.",
+    "weight": 125,
+    "volume": 1,
+    "price": 20000,
+    "to_hit": 2,
+    "bashing": 5,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "b_m72barrel",
+    "mod_targets": [ "pistol" ],
+    "min_skills": [ [ "weapon", 4 ] ]
+  }
+]

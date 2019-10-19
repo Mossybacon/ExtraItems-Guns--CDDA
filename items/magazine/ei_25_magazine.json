@@ -1,0 +1,36 @@
+[
+    {
+    "id": "bobcat_25_mag",
+    "type": "MAGAZINE",
+    "name": "Beretta Bobcat 7-round .25 ACP magazine",
+    "description": "A 7-round magazine for use with the Beretta Bobcat pistol, chambered in .25 ACP.",
+    "weight": 90,
+    "volume": 1,
+    "price": 4700,
+    "material": [ "plastic", "steel" ],
+    "symbol": "#",
+    "color": "ltgray",
+    "ammo_type": "25",
+    "capacity": 7,
+    "reliability": 9,
+    "reload_time": 140,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "418_8_25_mag",
+    "type": "MAGAZINE",
+    "name": "Beretta M418 8-round .25 ACP magazine",
+    "description": "An 8-round magazine for use with the Beretta 418 pistol, chambered in .25 ACP.",
+    "weight": 90,
+    "volume": 1,
+    "price": 4700,
+    "material": [ "plastic", "steel" ],
+    "symbol": "#",
+    "color": "ltgray",
+    "ammo_type": "25",
+    "capacity": 8,
+    "reliability": 9,
+    "reload_time": 140,
+    "flags": [ "MAG_COMPACT" ]
+  }
+]

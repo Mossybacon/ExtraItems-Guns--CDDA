@@ -1,0 +1,52 @@
+[
+  {
+    "id": "beretta_bobcat_25",
+    "copy-from": "pistol_only_accessories_mechanism",
+    "type": "GUN",
+    "name": "Beretta Bobcat",
+    "description": "The Beretta Bobcat is a tiny gun chambered in the .25 ACP cartridge with a tip-up barrel like some older Beretta pistols, meaning you load the first round directly into the chamber instead of racking the slide to chamber it. The Bobcat is also found in .22LR.",
+    "weight": 325,
+    "volume": 1,
+    "price": 40000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "25",
+    "ranged_damage": -1,
+    "dispersion": 480,
+    "durability": 6,
+    "magazine_well": 1,
+    "magazines": [
+	  [ "25", [ "bobcat_25_mag" ] ],
+	  [ "22", [ "bobcat_22_mag" ] ],
+	  [ "32", [ "tomcat_mag" ] ]
+    ]
+  },
+  {
+    "id": "beretta_418_25",
+    "copy-from": "pistol_only_accessories_mechanism",
+    "type": "GUN",
+    "name": "Beretta M418",
+    "description": "Famous as James Bond's first gun before it was replaced by a Walther PPK, the 418 is a very small pocket pistol produced from c. 1919 to 1958, chambered in .25 ACP.",
+    "weight": 360,
+    "volume": 1,
+    "price": 45000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "25",
+    "ranged_damage": -1,
+    "dispersion": 480,
+    "durability": 6,
+    "magazine_well": 1,
+    "magazines": [
+	  [ "25", [ "418_8_25_mag" ] ],
+	  [ "22", [ "bobcat_22_mag" ] ],
+	  [ "32", [ "tomcat_mag" ] ]
+    ]
+  }
+]

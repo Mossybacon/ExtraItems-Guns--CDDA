@@ -1,0 +1,36 @@
+[
+  {
+    "id": "compensator",
+    "type": "GUNMOD",
+    "name": "compensator",
+    "description": "A compensator has a vented top but solid bottom to redirect gases upward, forcing the barrel down and helping to keep the gun on target. Improves accuracy somewhat.",
+    "weight": 225,
+    "volume": 0,
+    "price": 72000,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "muzzle",
+    "mod_targets": [ "smg", "rifle", "pistol" ],
+    "handling_modifier": 3,
+    "loudness_modifier": 6,
+    "min_skills": [ [ "weapon", 2 ] ]
+  },
+  {
+    "id": "93r_compensator",
+    "type": "GUNMOD",
+    "name": "93R compensator",
+    "description": "A compensator for use with the Beretta 93R. Improves accuracy somewhat.",
+    "weight": 225,
+    "volume": 0,
+    "price": 72000,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "muzzle",
+    "mod_targets": [ "smg", "rifle", "pistol" ],
+    "handling_modifier": 2,
+    "loudness_modifier": 6,
+    "min_skills": [ [ "weapon", 2 ] ]
+  }
+]

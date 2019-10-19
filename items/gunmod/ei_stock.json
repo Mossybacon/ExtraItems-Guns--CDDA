@@ -1,0 +1,19 @@
+[
+  {
+    "id": "93r_stock",
+    "type": "GUNMOD",
+    "name": "93R stock",
+    "description": "An add on stock for the Beretta 93R, improving control of recoil.",
+    "weight": 350,
+    "volume": 2,
+    "price": 38000,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "dark_gray",
+    "location": "stock",
+    "mod_targets": [ "pistol" ],
+    "handling_modifier": 2,
+    "min_skills": [ [ "weapon", 2 ] ],
+	"flags": [ "NEEDS_UNFOLD", "COLLAPSIBLE_STOCK" ]
+  }
+]

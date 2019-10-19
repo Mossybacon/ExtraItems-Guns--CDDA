@@ -1,0 +1,29 @@
+[
+   {
+    "id": "m9",
+    "copy-from": "pistol_only_accessories_mechanism",
+    "type": "GUN",
+    "name": "Beretta M9",
+    "description": "A very popular 9x19mm pistol, the M9 was the standard issue sidearm of the US army from 1985 to 2017, when it was chosen to be replaced by the SIG Sauer P320.",
+    "weight": 945,
+    "volume": 2,
+    "price": 65000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "9mm",
+    "range": 1,
+    "dispersion": 480,
+    "durability": 6,
+    "magazine_well": 1,
+    "magazines": [
+      [ "9mm", [ "m9mag", "m9_10_9_mag", "m9_20_9_mag", "m9_18_9_mag", "m9_13_9_mag", "m9_17_9_mag", "m9bigmag", "90two_17_9_mag", "90two_15_9_mag", "90two_10_9_mag" ] ],
+      [ "22", [ "m9_15_22_mag", "m9_10_22_mag" ] ],
+      [ "45", [ "m1911mag", "m1911bigmag" ] ],
+      [ "46", [ "hk46mag", "hk46bigmag" ] ],
+      [ "57", [ "fn57mag" ] ]
+    ]
+  }
+]

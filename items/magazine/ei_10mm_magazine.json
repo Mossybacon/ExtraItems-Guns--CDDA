@@ -1,0 +1,36 @@
+[
+ {
+    "id": "glock20_15_10mm_auto_mag",
+    "type": "MAGAZINE",
+    "name": "10mm Auto Glock magazine",
+    "description": "A 15-round magazine for use with 10mm Auto Glock pistols.",
+    "weight": 90,
+    "volume": 1,
+    "price": 4700,
+    "material": [ "plastic", "steel" ],
+    "symbol": "#",
+    "color": "ltgray",
+    "ammo_type": "10mm_auto",
+    "capacity": 15,
+    "reliability": 9,
+    "reload_time": 140,
+    "flags": [ "MAG_COMPACT" ]
+  },
+  {
+     "id": "glock20_10_10mm_auto_mag",
+     "type": "MAGAZINE",
+     "name": "10mm Auto Glock magazine",
+     "description": "A 10-round magazine for use with 10mm Auto Glock pistols.",
+     "weight": 90,
+     "volume": 1,
+     "price": 4700,
+     "material": [ "plastic", "steel" ],
+     "symbol": "#",
+     "color": "ltgray",
+     "ammo_type": "10mm_auto",
+     "capacity": 10,
+     "reliability": 9,
+     "reload_time": 140,
+     "flags": [ "MAG_COMPACT" ]
+   }
+]

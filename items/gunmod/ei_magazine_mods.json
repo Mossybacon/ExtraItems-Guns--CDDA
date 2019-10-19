@@ -1,0 +1,44 @@
+[
+  {
+    "id": "px4magadapt",
+    "type": "GUNMOD",
+    "name": "Px4 magazine adapter",
+    "description": "A kit providing the necessary parts to make a Beretta 92FS model Cx4 or Mx4 carbine take Px4 pistol magazines.",
+    "weight": 200,
+    "volume": 1,
+    "integral_volume": 0,
+    "price": 10000,
+    "material": "steel",
+    "symbol": ":",
+    "color": "green",
+    "location": "magazine",
+    "mod_targets": [ "rifle" ],
+    "acceptable_ammo": [ "9mm" ],
+    "install_time": 50000,
+    "magazine_adaptor": [
+      [ "9mm", [ "px4_20_9_mag", "px4_17_9_mag", "px4_15_9_mag", "px4_13_9_mag" ] ]
+    ],
+    "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ]
+  },
+    {
+    "id": "92magadapt",
+    "type": "GUNMOD",
+    "name": "92FS magazine adapter",
+    "description": "A kit providing the necessary parts to make a Beretta Px4 model Cx4 or Mx4 carbine take 92FS (M9) pistol magazines.",
+    "weight": 200,
+    "volume": 1,
+    "integral_volume": 0,
+    "price": 10000,
+    "material": "steel",
+    "symbol": ":",
+    "color": "green",
+    "location": "magazine",
+    "mod_targets": [ "rifle" ],
+    "acceptable_ammo": [ "9mm" ],
+    "install_time": 50000,
+    "magazine_adaptor": [
+      [ "9mm", [ "m9bigmag", "m9_10_9_mag", "m9mag" ] ]
+    ],
+    "min_skills": [ [ "weapon", 1 ], [ "mechanics", 1 ] ]
+  }
+]
