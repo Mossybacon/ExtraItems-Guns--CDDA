@@ -1,0 +1,19 @@
+[
+ {
+    "id": "sig_220_8rd_38super_mag",
+    "type": "MAGAZINE",
+    "name": ".38 Super P220 magazine",
+    "description": "An 8-round magazine for use with the .38 Super variant of the SIG Sauer P220.",
+    "weight": 90,
+    "volume": 1,
+    "price": 4700,
+    "material": [ "plastic", "steel" ],
+    "symbol": "#",
+    "color": "ltgray",
+    "ammo_type": "38super",
+    "capacity": 8,
+    "reliability": 9,
+    "reload_time": 140,
+    "flags": [ "MAG_COMPACT" ]
+  }
+]

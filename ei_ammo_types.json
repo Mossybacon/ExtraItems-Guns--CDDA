@@ -11,6 +11,12 @@
         "name" : "10mm Auto",
         "default" : "10mm_auto"
     },
+    {
+        "type" : "ammunition_type",
+        "id" : "765x21",
+        "name" : "7.65x21mm Parabellum",
+        "default" : "765x21"
+    },
 	{
         "type" : "ammunition_type",
         "id" : "25",

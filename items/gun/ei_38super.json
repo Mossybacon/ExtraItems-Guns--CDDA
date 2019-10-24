@@ -1,0 +1,25 @@
+[
+{
+ "id": "sig_220_38super",
+ "copy-from": "pistol_only_accessories_mechanism_rail",
+ "type": "GUN",
+ "name": "SIG Sauer P220",
+ "description": "A .38 Super version of the P220. Being discontinued rather early in its lifecycle means these guns are very rare.",
+ "weight": 900,
+ "volume": 2,
+ "price": 75000,
+ "to_hit": -2,
+ "bashing": 8,
+ "material": [ "plastic", "steel" ],
+ "symbol": "(",
+ "color": "dark_gray",
+ "ammo": "38super",
+ "ranged_damage": 1,
+ "dispersion": 480,
+ "durability": 6,
+ "magazine_well": 1,
+ "magazines": [
+   [ "38super", [ "sig_220_8rd_38super_mag" ] ],
+ ]
+}
+]

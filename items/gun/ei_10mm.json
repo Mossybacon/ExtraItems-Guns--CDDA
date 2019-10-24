@@ -13,19 +13,13 @@
     "material": [ "plastic", "steel" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10mm_auto",
+    "ammo": "10mm",
     "ranged_damage": -1,
     "dispersion": 480,
     "durability": 6,
     "magazine_well": 1,
     "magazines": [
-	  [ "10mm_auto", [ "glock20_15_10mm_auto_mag", "glock20_10_10mm_auto_mag" ] ],
-	  [ "357sig", [ "glock31_15_357sig_mag", "glock31_10_357sig_mag" ] ],
-    [ "9mm", [ "glockmag17", "glockbigmag", "glockmag10", "glock17_22", "glock_drum_50rd", "glock_drum_100rd" ] ],
-    [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
-    [ "45", [ "m1911mag", "m1911bigmag" ] ],
-    [ "46", [ "hk46mag", "hk46bigmag" ] ],
-    [ "57", [ "fn57mag" ] ]
+	  [ "10mm", [ "glock20_15_10mm_mag", "glock20_10_10mm_mag" ] ],
     ]
   },
   {
@@ -42,19 +36,13 @@
     "material": [ "plastic", "steel" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10mm_auto",
+    "ammo": "10mm",
     "ranged_damage": -1,
     "dispersion": 480,
     "durability": 6,
     "magazine_well": 1,
     "magazines": [
-	  [ "10mm_auto", [ "glock20_10_10mm_auto_mag", "glock20_15_10mm_auto_mag" ] ],
-	  [ "357sig", [ "glock31_15_357sig_mag", "glock31_10_357sig_mag" ] ],
-    [ "9mm", [ "glockmag17", "glockbigmag", "glockmag10", "glock17_22", "glock_drum_50rd", "glock_drum_100rd" ] ],
-    [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
-    [ "45", [ "m1911mag", "m1911bigmag" ] ],
-    [ "46", [ "hk46mag", "hk46bigmag" ] ],
-    [ "57", [ "fn57mag" ] ]
+	  [ "10mm", [ "glock20_10rd_10mm_mag", "glock20_15rd_10mm_mag" ] ],
     ]
   },
   {
@@ -71,19 +59,36 @@
     "material": [ "plastic", "steel" ],
     "symbol": "(",
     "color": "dark_gray",
-    "ammo": "10mm_auto",
+    "ammo": "10mm",
     "ranged_damage": -1,
     "dispersion": 480,
     "durability": 6,
     "magazine_well": 1,
     "magazines": [
-	  [ "10mm_auto", [ "glock20_15_10mm_auto_mag", "glock20_10_10mm_auto_mag" ] ],
-	  [ "357sig", [ "glock31_15_357sig_mag", "glock31_10_357sig_mag" ] ],
-    [ "9mm", [ "glockmag17", "glockbigmag", "glockmag10", "glock17_22", "glock_drum_50rd", "glock_drum_100rd" ] ],
-    [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
-    [ "45", [ "m1911mag", "m1911bigmag" ] ],
-    [ "46", [ "hk46mag", "hk46bigmag" ] ],
-    [ "57", [ "fn57mag" ] ]
+	  [ "10mm", [ "glock20_15rd_10mm_mag", "glock20_10rd_10mm_mag" ] ],
     ]
-  }
+  },
+  {
+   "id": "sig_220_10mm",
+   "copy-from": "pistol_only_accessories_mechanism_rail",
+   "type": "GUN",
+   "name": "SIG Sauer P220 Full-Size",
+   "description": "A 10mm version of the P220, slightly larger than its .45 counterpart. It also has a rail to mount accessories.",
+   "weight": 900,
+   "volume": 2,
+   "price": 75000,
+   "to_hit": -2,
+   "bashing": 8,
+   "material": [ "plastic", "steel" ],
+   "symbol": "(",
+   "color": "dark_gray",
+   "ammo": "10mm",
+   "ranged_damage": 1,
+   "dispersion": 480,
+   "durability": 6,
+   "magazine_well": 1,
+   "magazines": [
+     [ "10mm", [ "sig_220_8rd_10mm_mag" ] ],
+   ]
+ }
 ]

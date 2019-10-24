@@ -1,5 +1,39 @@
 [
-    {
+  {
+  "id": "sig_210_8rd_22_mag",
+  "type": "MAGAZINE",
+  "name": "SIG P210-7 8-round .22LR magazine",
+  "description": "An 8-round magazine for use with the SIG P210-7 pistol, chambered in .22LR.",
+  "weight": 90,
+  "volume": 1,
+  "price": 4700,
+  "material": [ "plastic", "steel" ],
+  "symbol": "#",
+  "color": "ltgray",
+  "ammo_type": "22",
+  "capacity": 8,
+  "reliability": 9,
+  "reload_time": 140,
+  "flags": [ "MAG_COMPACT" ]
+},
+{
+"id": "sig_220_10rd_22_mag",
+"type": "MAGAZINE",
+"name": "SIG Sauer P220 10-round .22LR magazine",
+"description": "An 10-round magazine for use with the SIG P220 pistol, chambered in .22LR.",
+"weight": 90,
+"volume": 1,
+"price": 4700,
+"material": [ "plastic", "steel" ],
+"symbol": "#",
+"color": "ltgray",
+"ammo_type": "22",
+"capacity": 10,
+"reliability": 9,
+"reload_time": 140,
+"flags": [ "MAG_COMPACT" ]
+},
+  {
     "id": "beretta_70_8_22_mag",
     "type": "MAGAZINE",
     "name": "Beretta Model 70 8-round .22LR magazine",

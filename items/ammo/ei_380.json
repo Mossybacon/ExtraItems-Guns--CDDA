@@ -1,0 +1,34 @@
+[
+	{
+    "id": "380",
+    "type": "AMMO",
+    "name": ".380 ACP",
+    "description": ".380 ACP, also known as 9x17mm or 9mm Short, among other names, is often considered underpowered, though it is quite common for compact self-defense handguns.",
+		"weight": "6 g",
+		"volume": "250 ml",
+		"price": 120,
+		"price_postapoc": 1900,
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 50,
+    "stack_size": 50,
+    "ammo_type": "380",
+    "casing": "380_casing",
+    "range": 13,
+    "damage": 14,
+    "pierce": 2,
+    "dispersion": 60,
+    "recoil": 275,
+    "effects": [ "COOKOFF" ]
+  },
+	{
+    "id": "380_casing",
+    "copy-from": "casing",
+    "type": "GENERIC",
+    "name": ".380 ACP casing",
+    "description": "An empty casing from a .380 ACP round.",
+		"weight": "3 g",
+		"volume": "5ml"
+  }
+]

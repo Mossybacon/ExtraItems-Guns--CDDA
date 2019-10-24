@@ -102,12 +102,35 @@
       [ "57", [ "fn57mag" ] ]
     ]
   },
+  {
+   "id": "sig_220_45",
+   "copy-from": "pistol_only_accessories_mechanism",
+   "type": "GUN",
+   "name": "SIG Sauer P220",
+   "description": "A .45 ACP caliber pistol developed as a replacement for the aging P210 in service. This older model does not have a rail for mounting accessories.",
+   "weight": 862,
+   "volume": 2,
+   "price": 75000,
+   "to_hit": -2,
+   "bashing": 8,
+   "material": [ "plastic", "steel" ],
+   "symbol": "(",
+   "color": "dark_gray",
+   "ammo": "45",
+   "ranged_damage": 1,
+   "dispersion": 480,
+   "durability": 6,
+   "magazine_well": 1,
+   "magazines": [
+     [ "45", [ "sig_220_8_45_mag", "sig_220_6_45_mag", "sig_220_10_45_mag" ] ],
+   ]
+ },
    {
-    "id": "sig_220_45",
+    "id": "sig_220_45_rail",
     "copy-from": "pistol_only_accessories_mechanism_rail",
     "type": "GUN",
     "name": "SIG Sauer P220 Full-Size",
-    "description": "A .45 ACP caliber pistol developed as a replacement for the aging P210 in service.",
+    "description": "A .45 ACP caliber pistol developed as a replacement for the aging P210 in service, this is a modern P220 with a rail for mounting accessories.",
     "weight": 862,
     "volume": 2,
     "price": 75000,
@@ -122,18 +145,14 @@
     "durability": 6,
     "magazine_well": 1,
     "magazines": [
-      [ "9mm", [ "glockmag", "glockbigmag" ] ],
-      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
-      [ "45", [ "sig_220_6_45_mag", "sig_220_8_45_mag", "sig_220_10_45_mag" ] ],
-      [ "46", [ "hk46mag", "hk46bigmag" ] ],
-      [ "57", [ "fn57mag" ] ]
+      [ "45", [ "sig_220_8_45_mag", "sig_220_6_45_mag", "sig_220_10_45_mag" ] ],
     ]
   },
   {
-    "id": "sig_220_45",
+    "id": "sig_220_combat_tb_45",
     "copy-from": "pistol_only_accessories_mechanism_rail_muzzle",
     "type": "GUN",
-    "name": "SIG Sauer P220 Full-Size Combat",
+    "name": "SIG Sauer P220 Full-Size Combat TB",
     "description": "A .45 ACP caliber pistol developed as a replacement for the aging P210 in service. The Combat version has a threaded barrel for attaching muzzle modifications.",
     "weight": 862,
     "volume": 2,
@@ -149,11 +168,7 @@
     "durability": 6,
     "magazine_well": 1,
     "magazines": [
-      [ "9mm", [ "glockmag", "glockbigmag" ] ],
-      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
-      [ "45", [ "sig_220_6_45_mag", "sig_220_8_45_mag", "sig_220_10_45_mag" ] ],
-      [ "46", [ "hk46mag", "hk46bigmag" ] ],
-      [ "57", [ "fn57mag" ] ]
+      [ "45", [ "sig_220_8_45_mag", "sig_220_6_45_mag", "sig_220_10_45_mag" ] ],
     ]
   },
   {
@@ -161,8 +176,8 @@
     "copy-from": "pistol_only_accessories_mechanism_rail",
     "type": "GUN",
     "name": "SIG Sauer P220 Carry",
-    "description": "A .45 ACP caliber pistol developed as a replacement for the aging P210 in service. The carry model is smaller without sacrificing ammo capacity.",
-    "weight": 862,
+    "description": "A .45 ACP caliber pistol developed as a replacement for the aging P210 in service. The Carry model is smaller without sacrificing ammo capacity.",
+    "weight": 760,
     "volume": 1,
     "price": 75000,
     "to_hit": -2,
@@ -176,11 +191,30 @@
     "durability": 6,
     "magazine_well": 1,
     "magazines": [
-      [ "9mm", [ "glockmag", "glockbigmag" ] ],
-      [ "22", [ "ruger1022bigmag", "ruger1022mag" ] ],
-      [ "45", [ "sig_220_6_45_mag", "sig_220_8_45_mag", "sig_220_10_45_mag" ] ],
-      [ "46", [ "hk46mag", "hk46bigmag" ] ],
-      [ "57", [ "fn57mag" ] ]
+      [ "45", [ "sig_220_10_45_mag", "sig_220_6_45_mag", "sig_220_8_45_mag"  ] ],
+    ]
+  },
+  {
+    "id": "sig_220_45_compact",
+    "copy-from": "pistol_only_accessories_mechanism_rail",
+    "type": "GUN",
+    "name": "SIG Sauer P220 Compact",
+    "description": "A .45 ACP caliber pistol developed as a replacement for the aging P210 in service. The Compact model is smaller and comes standard with smaller, 6-round magazines but can use larger ones from the Carry and Full-size models.",
+    "weight": 725,
+    "volume": 1,
+    "price": 75000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "45",
+    "ranged_damage": 1,
+    "dispersion": 480,
+    "durability": 6,
+    "magazine_well": 1,
+    "magazines": [
+      [ "45", [ "sig_220_6_45_mag", "sig_220_10_45_mag", "sig_220_8_45_mag"  ] ],
     ]
   },
   {

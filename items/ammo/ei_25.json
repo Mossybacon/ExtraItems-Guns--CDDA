@@ -1,0 +1,33 @@
+[
+  {
+    "id": "25",
+    "type": "AMMO",
+    "name": ".25 ACP",
+    "description": "The .25 ACP round is very small and fairly low velocity, designed as a centerfire cartridge similar to .22 LR but for smaller guns. Low damage, low velocity and often low availabilty limit its usefulness, though it will do in a pinch.",
+    "weight": "5 g",
+    "volume": "250 ml",
+    "price": 100,
+    "price_postapoc": 1600,
+    "material": [ "brass", "lead", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 80,
+    "stack_size": 100,
+    "ammo_type": "25",
+    "casing": "25_casing",
+    "range": 13,
+    "damage": 12,
+    "dispersion": 60,
+    "recoil": 150,
+    "effects": [ "COOKOFF" ]
+  },
+    {
+    "id": "25_casing",
+    "copy-from": "casing",
+    "type": "GENERIC",
+    "name": ".25 ACP casing",
+    "description": "An empty casing from a .25 ACP round.",
+    "weight": "2 g",
+    "volume": "5ml"
+  }
+]

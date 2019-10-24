@@ -1,0 +1,117 @@
+[
+  {
+    "id": "sig_210_1_765x21",
+    "copy-from": "pistol_only_accessories_mechanism",
+    "type": "GUN",
+    "name": "SIG P210-1",
+    "description": "The 210-1 is the original production version of the legendary P210, used by the Swiss military as the Modell 1949 or SP47/8 and sold commercially as the P210. This particular gun is in 7.65x21mm, also known as .30 Luger while others were made in 9mm.",
+    "weight": "985 g",
+    "volume": "650 ml",
+    "price": 100000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "765x21",
+    "ranged_damage": -1,
+    "dispersion": 480,
+    "durability": 6,
+    "magazine_well": 1,
+    "magazines": [
+      [ "765x21", [ "sig_210_8rd_765x21_mag" ] ]
+    ]
+  },
+{
+  "id": "sig_210_3_765x21",
+  "copy-from": "pistol_only_accessories_mechanism",
+  "type": "GUN",
+  "name": "SIG P210-3",
+  "description": "Sold almost exclusively to Swiss police, the P210-3 is a rare variant of the P210. This one is in 7.65x21mm/.30 Luger, while some other P210-3s were chambered in 9mm.",
+  "weight": "985 g",
+  "volume": "650 ml",
+  "price": 110000,
+  "to_hit": -2,
+  "bashing": 8,
+  "material": [ "plastic", "steel" ],
+  "symbol": "(",
+  "color": "dark_gray",
+  "ammo": "765x21",
+  "ranged_damage": -1,
+  "dispersion": 480,
+  "durability": 6,
+  "magazine_well": 1,
+  "magazines": [
+    [ "765x21", [ "sig_210_8rd_765x21_mag" ] ]
+  ]
+},
+{
+  "id": "sig_210_5_765x21",
+  "copy-from": "pistol_only_accessories_mechanism",
+  "type": "GUN",
+  "name": "SIG P210-5",
+  "description": "A sport-shooting version of the P210, the 210-5 features a longer barrel than the other models. This particular gun is in  7.65x21 also known as .30 Luger, while others were made in 9mm.",
+  "weight": "985 g",
+  "volume": "680 ml",
+  "price": 110000,
+  "to_hit": -2,
+  "bashing": 8,
+  "material": [ "plastic", "steel" ],
+  "symbol": "(",
+  "color": "dark_gray",
+  "ammo": "765x21",
+  "ranged_damage": -1,
+  "dispersion": 480,
+  "durability": 6,
+  "magazine_well": 1,
+  "magazines": [
+    [ "765x21", [ "sig_210_8rd_765x21_mag" ] ]
+  ]
+},
+{
+  "id": "sig_210_6_765x21",
+  "copy-from": "pistol_only_accessories_mechanism",
+  "type": "GUN",
+  "name": "SIG P210-6",
+  "description": "A sport-shooting version of the P210 like the 210-5, the 210-6 lacks the longer barrel of its predecessor. This particular gun is in  7.65x21 also known as .30 Luger, while others were made in 9mm.",
+  "weight": "985 g",
+  "volume": "650 ml",
+  "price": 110000,
+  "to_hit": -2,
+  "bashing": 8,
+  "material": [ "plastic", "steel" ],
+  "symbol": "(",
+  "color": "dark_gray",
+  "ammo": "765x21",
+  "ranged_damage": -1,
+  "dispersion": 480,
+  "durability": 6,
+  "magazine_well": 1,
+  "magazines": [
+    [ "765x21", [ "sig_210_8rd_765x21_mag" ] ]
+  ]
+},
+{
+  "id": "sig_220_765x21",
+  "copy-from": "pistol_only_accessories_mechanism",
+  "type": "GUN",
+  "name": "SIG P220",
+  "description": "A rare version of the P220 chambered in 7.65x21mm as opposed to the normal chamberings of .45 or 9mm.",
+  "weight": "900 g",
+  "volume": "550 ml",
+  "price": 80000,
+  "to_hit": -2,
+  "bashing": 8,
+  "material": [ "plastic", "steel" ],
+  "symbol": "(",
+  "color": "dark_gray",
+  "ammo": "765x21",
+  "ranged_damage": -1,
+  "dispersion": 480,
+  "durability": 6,
+  "magazine_well": 1,
+  "magazines": [
+    [ "765x21", [ "sig_220_10rd_765x21_mag" ] ]
+  ]
+},
+]

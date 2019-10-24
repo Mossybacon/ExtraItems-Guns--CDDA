@@ -1,5 +1,51 @@
 [
   {
+    "id": "sig_210_7",
+    "copy-from": "pistol_only_accessories_mechanism",
+    "type": "GUN",
+    "name": "SIG P210-7",
+    "description": "The P210-7 is a .22LR version of the otherwise 9mm or 7.65x21mm P210. The internals of this gun are a rarely-seen conversion kit for the other models.",
+    "weight": "985 g",
+    "volume": "650 ml",
+    "price": 110000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "22",
+    "ranged_damage": -1,
+    "dispersion": 480,
+    "durability": 6,
+    "magazine_well": 1,
+    "magazines": [
+      [ "22", [ "sig_210_8rd_22_mag" ] ]
+    ]
+  },
+  {
+    "id": "sig_220_22",
+    "copy-from": "pistol_only_accessories_mechanism",
+    "type": "GUN",
+    "name": "SIG P220",
+    "description": "A rare version of the P220 chambered in .22LR as opposed to the normal chamberings of .45 or 9mm.",
+    "weight": "900 g",
+    "volume": "550 ml",
+    "price": 80000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "22",
+    "ranged_damage": -1,
+    "dispersion": 480,
+    "durability": 6,
+    "magazine_well": 1,
+    "magazines": [
+      [ "22", [ "sig_220_10rd_22_mag" ] ]
+    ]
+  },
+  {
     "id": "beretta_70s_22",
     "copy-from": "pistol_only_accessories_mechanism",
     "type": "GUN",

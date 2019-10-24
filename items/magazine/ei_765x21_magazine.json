@@ -1,0 +1,36 @@
+[
+  {
+  "id": "sig_210_8rd_765x21_mag",
+  "type": "MAGAZINE",
+  "name": "SIG P210 8-round 7.65x21mm magazine",
+  "description": "An 8-round magazine for use with the SIG P210 pistols chambered in .30 Luger, also known as 7.65x21mm.",
+  "weight": 90,
+  "volume": 1,
+  "price": 4700,
+  "material": [ "plastic", "steel" ],
+  "symbol": "#",
+  "color": "ltgray",
+  "ammo_type": "765x21",
+  "capacity": 8,
+  "reliability": 9,
+  "reload_time": 140,
+  "flags": [ "MAG_COMPACT" ]
+},
+{
+"id": "sig_220_8rd_765x21_mag",
+"type": "MAGAZINE",
+"name": "SIG P220 8-round 7.65x21mm magazine",
+"description": "An 8-round magazine for use with the SIG P220 pistol, chambered in .30 Luger, also known as 7.65x21mm.",
+"weight": 90,
+"volume": 1,
+"price": 4700,
+"material": [ "plastic", "steel" ],
+"symbol": "#",
+"color": "ltgray",
+"ammo_type": "765x21",
+"capacity": 8,
+"reliability": 9,
+"reload_time": 140,
+"flags": [ "MAG_COMPACT" ]
+}
+]
